@@ -36,11 +36,11 @@ int main()
     }
     printf("\n4.Feedback given by other students:Easy/Medium/Hard:\n");
     scanf("%s",feedback);
-    printf("\n5.Number of studnets who have answered it right:\n");
+    printf("\n5.Number of students who have answered it right:\n");
     scanf("%lld",&right);
-    printf("\n6.Number of studnets who have answered it wrong:\n");
+    printf("\n6.Number of students who have answered it wrong:\n");
     scanf("%lld",&wrong);
-    printf("\n7.Number of studnets who have answered it partially right:\n");
+    printf("\n7.Number of students who have answered it partially right:\n");
     scanf("%lld",&partially_right);
     printf("\n8.Maximum marks alloted for the question:\n");
     scanf("%d",&max_marks);
