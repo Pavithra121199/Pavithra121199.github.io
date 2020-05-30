@@ -1,0 +1,28 @@
+Step 1:Start
+Step 2:Decalre the variables
+Step 3:Read the variables such as question type,difficulty,total attendees from user
+Step 4:Assign actual count=total attendees
+Step 5:Read the time taken for the question
+Step 6:If (strcmp(question type,"MCQ")==0)
+           Read the number of changes in MCQ
+           Assign actual count=total count-changes
+           Goto step 7
+       else if(strcmp(question type,"Programming)==0)
+            Read the number of compilations and the programming language used from the user
+            Assign actual count=total count-compilations
+Step 7:Read the number of hints and number of students who answered it right ,wrong and partially correct and maximum marks alloted
+Step 8:if(right>wrong && right>partially correct)
+            Print "The difficulty level of the question : Easy"
+       else if(wrong>right && wrong>partially correct)
+            Print "The difficulty level of the question : Hard"
+       else if(partially correct>right && partially correct>wrong)
+            Print "The difficulty level of the question : Medium"
+Step 9:Assign av=((right*maximum marks)+((partially correct*maximum marks)/2)/actual count;
+Step 10:Print av
+Step 11:Assign not answered=actual count-(right+wrong+partially correct)
+Step 12:Print not answered
+Step 13:Assign percent=not answerd/actual count
+Step 14:Print percent
+Step 15:End
+         
+            
