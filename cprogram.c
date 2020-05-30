@@ -75,7 +75,7 @@ int main()
         printf("\nThe difficulty level of the question:Medium\n");
            
            
-    av=((right*max_marks)+(partially_right*max_marks))/actual_count;
+    av=((right*max_marks)+((partially_right*max_marks)/2)/actual_count;
            
            printf("\nAverage mark obtained for this question is :%.1f\n",av);
          
